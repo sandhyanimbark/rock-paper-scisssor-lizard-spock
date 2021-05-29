@@ -33,7 +33,7 @@ background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  border-radius: 49px;
+  /* border-radius: 49px; */
   
 }
 
@@ -309,7 +309,9 @@ span {
     margin-right: 49px;
     letter-spacing: 1px;
   }
-  .scores
+  .scores{
+      margin-right:30px ;
+  }
   .item4{
     position: absolute;
     left: 20%;
