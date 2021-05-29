@@ -321,13 +321,17 @@ span {
     top: 45%;
   }
   .modal-content button{
-      background-color: red;
-      padding: 2px;
-      border-radius: 3px;
+  
+    /* padding: 2px; */
+    margin-left: 218px;
+    border-radius: 23px;
+    
+      
   }
   .modal-content {
-    width: 380px;
-    height: auto;
+    width: 250px;
+    padding-top: 10px;
+    height:200px;
   }
   .btn-rules{
       
@@ -336,6 +340,7 @@ span {
   .modal-content img{
     width: 180px;
     height: auto;
-    margin-left: 63px;
+    
+    margin-left: 6px;
   }
 }
