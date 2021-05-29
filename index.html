@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/68353caab6.js" crossorigin="anonymous"></script>
+    <title>rock-paper-scissors-lizard-spock</title>
+    <link
+      rel="stylesheet"
+      href="ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="title">
+          <p>Rock  Paper  Scissors  Lizard  Spock</p>
+         
+        </div>
+        <div class="scores">
+            <h2>Scores</h2>
+          <p>Computer: <span id="computer_score">0</span></p>
+          <p>User: <span id="user_score">0</span></p>
+        </div>
+      </header>
+      <div class="weapons">
+        <button class="button" onclick="checker('rock')">
+            <i class="fa fa-hand-rock-o"></i> 
+        </button>
+        <button class="button" onclick="checker('paper')">
+          <i class="far fa-hand-paper"></i>
+        </button>
+        <button class="button" onclick="checker('scissor')">
+          <i class="far fa-hand-scissors"></i>
+        </button>
+  
+        <button class="button" onclick="checker('lizard')">
+            <i class="far fa-hand-lizard"></i>
+        </button>
+        <button class="button" onclick="checker('spock')">
+            <i class="far fa-hand-spock"></i>
+        </button>
+      </div>
+      <div class="details">
+        <p id="user_choice"></p>
+        <p id="comp_choice"></p>
+        <p id="result"></p>
+      </div>
+
+      <button class="btn-rules" id="open">Rules</button>
+    <div class="rules-modal" id="modal">
+          <div class="modal-content">
+              <div>
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+              </div>
+             
+            <img src="images/rules.jpg" alt="rule">
+        
+          </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+ </html>
